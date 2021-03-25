@@ -10,6 +10,9 @@
 // Work: nested, with alias, without @import
 // @import "@/nested/sass3"
 
-// Work: node module, no alias, with @import
+// Not Work: node module, no alias, with @import
 // this is how I found out this bug
 // @import "quasar/dist/quasar.sass"
+
+// Work: node module, no alias and use relative path, with @import
+// @import "./node_modules/quasar/dist/quasar.sass"
