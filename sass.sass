@@ -1,0 +1,15 @@
+// Work: not nested, with alias, with @import
+// @import "@/sass1"
+
+// Not Work: nested, with alias, with @import
+@import "@/nested/sass2"
+
+// Work: nested, no alias, with @import
+// @import "./nested/sass2"
+
+// Work: nested, with alias, without @import
+// @import "@/nested/sass3"
+
+// Work: node module, no alias, with @import
+// this is how I found out this bug
+// @import "quasar/dist/quasar.sass"

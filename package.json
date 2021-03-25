@@ -1,0 +1,14 @@
+{
+  "name": "vite-sass-alias-bug",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "sass": "sass sass.sass"
+  },
+  "dependencies": {
+    "quasar": "^2.0.0-beta.10",
+    "sass": "^1.32.8",
+    "vite": "^2.1.2"
+  }
+}
